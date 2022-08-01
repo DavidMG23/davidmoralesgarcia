@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Rosario', sans-serif;
+    text-align: center;
+    color: #275462;
+    font-size: 18px;
+    min-width: 320px;
+}
+.title {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.icono {
+    width: 4rem;
+    margin-bottom: 2rem;
+}
+.btn {
+    border: 2px solid #275462;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #275462;
+    color: #fff;
+}
+
+/* sections */
+.portada {
+    height: 100vh;
+    background-image: url('../img/portada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.direccion {
+    margin-bottom: 6rem;
+}
+.direccion .text {
+    font-size: 20px;
+    color: #202020;
+}
+.galeria {
+    margin-bottom: 6rem;
+}
+.fotos {
+    margin: .5rem 0;
+}
+.regalo {
+    margin-bottom: 6rem;
+}
+.asistencia {
+    background-image: url('../img/asistencia.jpg');
+    background-position: 50%;
+    background-size: cover;
+    padding: 6rem;
+    color: #fff;
+    margin-bottom: 6rem;
+}
+.asistencia .btn{
+    background-color: #275462;
+    color: #fff;
+}
+
+.asistencia .btn:hover {
+    background-color: #fff;
+    color: #275462;
+}
+.album {
+    margin-bottom: 6rem;
+}
+.saludo {
+    background-color: #275462;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+.contacto {
+    margin-bottom: 4rem;
+}
+.contacto a {
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+.contacto a:hover {
+    color: #1c93b8;
+}
+.contacto .whatsapp {
+    font-size: 1.5rem;
+    color: #202020;
+}
+.contacto .social{
+    font-size: 1.5em;
+    margin: 1rem;
+    color: #202020;
+}
+.unique {
+    padding: 10px;
+    background-color: #0f2027;
+    text-align: center;
+}
+.unique p {
+    color: #fff;
+    margin: 0;
+}
+.unique p a {
+    color: #1c93b8;
+    text-decoration: none;
+}
+.unique a:hover {
+    color: #fff;
+}
+/* media queris */
+@media (max-device-width: 992px) {
+    .portada {
+        background-attachment: initial;
+    }
+    .civil {
+        margin-bottom: 6rem;
+    }
+    .unique {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    font-family: 'Lato', sans-serif;
+    color: #3da35d;
+    font-size: 18px;
+    text-align: center;
+    overflow-x: hidden;
+}
+.portada {
+    height: 100vh;
+    background-image: url('../img/portada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.cuerpo {
+    margin-bottom: 6rem;
+}
+.icono {
+    width: 60px;
+    margin-bottom: 2rem;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #3da35d;
+    color: #fff;
+    padding: .5rem;
+    margin: 1rem;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #3cbb64;
+}
+
+.galeria {
+    margin-bottom: 6rem;
+}
+.fotos img{
+    border-radius: .3rem;
+    box-shadow: 0px 0px 6px 1px #000;
+}
+.regalo {
+    margin-bottom: 6rem;
+}
+.asistencia {
+    background-image: url('../img/asistencia.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 4rem 0;
+    font-style: normal;
+}
+
+.saludo {
+    background-color: #3da35d;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+footer {
+    padding: 0 !important; 
+}
+.saludo p{
+    margin-bottom: 0;
+}
+.contacto {
+    margin-bottom: 4rem;
+}
+.contacto .text {
+    color: #202020;
+}
+
+.whatsapp {
+    color: #3da35d;
+    font-weight: bold;
+    text-decoration: none;
+}
+.whatsapp:hover {
+    color: #000;
+}
+
+.social {
+    color: #202020;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+.social:hover {
+    color: #3da35d;
+}
+
+.unique {
+    background-color: #4d4d4d;
+    padding: 1rem;
+    color: #fff;
+}
+.unique p {
+    margin-bottom: 0;
+}
+.unique a {
+    color: #3da35d;
+    text-decoration: none;
+    font-weight: bold;
+}
+.unique a:hover {
+    color: #3cbb64;
+}
+
+/* Media queris */
+
+@media (max-device-width: 992px) {
+    .portada {
+        background-position-x: 50%;
+        background-attachment: initial;
+    }
+    .cuerpo .civil {
+        margin-bottom: 6rem;
+    }
+    .unique {
+        font-size: 14px;
+    }
+}

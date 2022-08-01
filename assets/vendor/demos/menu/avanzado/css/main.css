@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #202020;
+
+}
+section {
+    margin: 3rem auto;
+}
+.listado-burger, .listado-drinks {
+    display: none;
+} 
+.image img{
+    border-radius: .5rem;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer {
+    background-color: #040404;
+    color: #fff;
+    text-align: center;
+    padding: 1rem .3rem;
+}
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #03c2cf;
+}

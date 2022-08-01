@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #B44C24;
+    font-size: 18px; 
+}
+.portada {
+    height: 100vh;
+    background-image: url('../img/portada.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono {
+    width: 70px;
+    margin-bottom: 1.3rem;
+}
+.text {
+    color: #202020;
+}
+a:hover {
+    text-decoration: none;
+}
+.btn {
+    background-color: #C39A72;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.btn:hover {
+    background-color: #805D36;
+    color: #fff;
+}
+
+.cuerpo {
+    padding: 5rem 0;
+    margin: 2rem auto;
+}
+.cuerpo .icono {
+    width: 120px;
+}
+.galeria {
+    margin-bottom: 6rem;
+}
+.fotos {
+    background-size: cover;
+    background-position: 50%;
+    height: 450px;
+}
+.F1 {
+    background-image: url('../img/F1.jpg');
+}
+.F2 {
+    background-image: url('../img/F2.jpg');
+}
+.F3 {
+    background-image: url('../img/F3.jpg');
+}
+.F4 {
+    background-image: url('../img/F4.jpg');
+}
+
+.regalo {
+    margin-bottom: 6rem;
+}
+.asistencia {
+    background-image: url('../img/asistencia.jpg');
+    background-size: cover;
+    background-position: 50%;
+    height: 450px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.asistencia p {
+    color: #fff;
+}
+.album {
+    margin-bottom: 6rem;
+}
+.musica {
+    background-image: url('../img/musica.jpg');
+    background-size: cover;
+    height: 450px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musica .text {
+    color: #fff;
+}
+.saludo {
+    padding: 30px 5px;
+    background-color: #573D1E;
+    margin-bottom: 6rem;
+}
+.saludo .text {
+   letter-spacing: 1.5px;
+    color: #fff;
+    margin: 0;
+}
+.contacto {
+    margin-bottom: 6rem;
+}
+.contacto .whatsapp {
+    text-decoration: none;
+    color: #202020;
+}
+.contacto .social{
+    font-size: 1.5em;
+    margin: 5px 15px 5px 0px;
+    color: #202020;
+}
+.contacto a {
+    transition: .3s ease-in-out;
+}
+.contacto a:hover {
+    color: #C39A72;
+}
+
+.unique {
+    padding: 10px;
+    background-color: #0f2027;
+    text-align: center;
+}
+.unique .text {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+}
+.unique a {
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    color: #fff;
+}
+.unique a:hover {
+    color: #C39A72;
+}
+@media (max-device-width: 992px) {
+    .portada {
+        background-attachment: initial;
+    }
+    .unique {
+        font-size: .8rem;
+    }
+}
