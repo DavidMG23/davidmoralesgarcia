@@ -709,7 +709,11 @@ section .container {
 .modal-content, .modal-body {
   background-color: #000000;
 }
-
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .modal-body .info ul {
   list-style: none;
 }
